@@ -1,0 +1,6 @@
+version: "1"
+services:
+  publisher:
+    build: ./publisher/
+    ports:
+      - "80:80"
